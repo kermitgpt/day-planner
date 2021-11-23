@@ -6,5 +6,8 @@ var determineTime = moment().hour();
 
 console.log(determineTime);
 
-var textArea = $("textarea");
-var saveBtn = $(".saveBtn");
+var textArea = document.getElementsByClassName("text-area");
+var saveBtn = document.getElementsByClassName("saveBtn");
+
+console.log(textArea);
+console.log(saveBtn);
