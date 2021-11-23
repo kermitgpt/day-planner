@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>9AM</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText0"
+          data-time="9"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button1">
+          <p>SAVE</p>
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>10am</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText1"
+          data-time="10"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button2">
+          <p>SAVE</p>
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>11am</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText2"
+          data-time="11"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button3">
+          <p>SAVE</p>
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>12pm</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText3"
+          data-time="12"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button4">
+          <p>SAVE</p>
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>1pm</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText4"
+          data-time="13"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button5">
+          <p>SAVE</p>
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>2pm</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText5"
+          data-time="14"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button6">
+          <p>SAVE</p>
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>3pm</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText6"
+          data-time="15"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button7">
+          <p>SAVE</p>
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>4pm</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText7"
+          data-time="16"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button8">
+          <p>SAVE</p>
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="row time-block">
+        <div class="col-1 hour"><p>5pm</p></div>
+        <textarea
+          class="col-10 text-area"
+          id="userText8"
+          data-time="17"
+        ></textarea>
+        <button class="col-1 saveBtn" id="button9">
+          <p>SAVE</p>
+        </button>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
